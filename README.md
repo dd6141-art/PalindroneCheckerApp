@@ -7,4 +7,5 @@ UC4: Added Character Array Based Palindrome
 UC5: Made Stack based Palindrome  
 UC6: Queue + Stack Based Palindrome Check  
 UC7: Deque-Based Optimized Palindrome Checker  
-UC8: Linked List Based Palindrome Checker
+UC8: Linked List Based Palindrome Checker  
+UC9: Recursive Palindrome Checker
