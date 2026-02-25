@@ -1,29 +1,27 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class PalindroneCheckerApp {
     public static void main(String[] args) {
-        String input ="civic";
-        Queue<Character> queue = new LinkedList<>();
-        Stack<Character> stack = new Stack<>();
-        for(char c : input.toCharArray()){
-            queue.add(c);
-            stack.push(c);
+        String input = "refer";
+        Deque<Character> deque = new ArrayDeque<>();
+        for (char c: input.toCharArray()){
+            deque.addLast(c);
         }
         boolean isPalindrome = true;
-
-        while(!queue.isEmpty()){
-            char fromQueue = queue.remove();
-            char fromStack = stack.pop();
-            if (fromQueue!= fromStack){
+        while(deque.size()>1){
+            char front = deque.removeFirst();
+            char rear = deque.removeLast();
+            if (front!= rear){
                 isPalindrome=false;
                 break;
             }
-            if(isPalindrome){
-                System.out.println(input+"is a palindrome.");
-            } else {
-                System.out.println(input+"is NOT a palindrome.");
-            }
+        }
+        if(isPalindrome){
+            System.out.println(input+" is a palindrome.");
+        } else {
+            System.out.println(input+" is NOT a palindrome.");
+        }
+
+
     }
 }
