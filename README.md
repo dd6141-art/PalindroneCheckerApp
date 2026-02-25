@@ -11,4 +11,4 @@ UC8: Linked List Based Palindrome Checker
 UC9: Recursive Palindrome Checker  
 UC10: Case-Insensitive & Space-Ignored Palindrome  
 UC11: Object-Oriented Palindrome Service
-
+UC12: Strategy Pattern for Palindrome Algorithms (Advanced)
