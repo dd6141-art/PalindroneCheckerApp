@@ -9,5 +9,6 @@ UC6: Queue + Stack Based Palindrome Check
 UC7: Deque-Based Optimized Palindrome Checker  
 UC8: Linked List Based Palindrome Checker  
 UC9: Recursive Palindrome Checker  
-UC10: Case-Insensitive & Space-Ignored Palindrome
+UC10: Case-Insensitive & Space-Ignored Palindrome  
+UC11: Object-Oriented Palindrome Service
 
